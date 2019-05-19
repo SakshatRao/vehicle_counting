@@ -15,3 +15,4 @@ detectors/ssd/ssd_pascal.py
 detectors/ssd/score_ssd_pascal.py
 detectors/ssd/deploy.prototxt
 .vscode/
+sample_traffic_scene.mp4
