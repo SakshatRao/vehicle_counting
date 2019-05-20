@@ -2,7 +2,7 @@ import sys
 sys.path.append('..')
 
 import cv2
-from blobs.blob2 import Blob
+from vehicle_counting.blobs.blob2 import Blob
 
 
 def csrt_create(bounding_box, frame):

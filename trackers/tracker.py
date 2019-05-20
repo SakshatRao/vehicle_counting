@@ -1,10 +1,10 @@
 import sys
 sys.path.append('..')
 
-from trackers.opencv.opencv_trackers import csrt_create, kcf_create
-from trackers.camshift.camshift_tracker import camshift_create
-from blobs.utils import get_centroid, get_area, box_contains_point
-from counter import is_passed_counting_line
+from vehicle_counting.trackers.opencv.opencv_trackers import csrt_create, kcf_create
+from vehicle_counting.trackers.camshift.camshift_tracker import camshift_create
+from vehicle_counting.blobs.utils import get_centroid, get_area, box_contains_point
+from vehicle_counting.counter import is_passed_counting_line
 
 
 def create_blob(bounding_box, frame, model):

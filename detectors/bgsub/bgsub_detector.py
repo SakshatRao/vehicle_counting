@@ -1,6 +1,6 @@
 import cv2
 import math
-from blobs.blob2 import Blob
+from vehicle_counting.blobs.blob2 import Blob
 
 
 fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()

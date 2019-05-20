@@ -3,7 +3,7 @@ sys.path.append('..')
 
 import cv2
 import numpy as np
-from blobs.blob3 import Blob
+from vehicle_counting.blobs.blob3 import Blob
 
 
 class Camshift():

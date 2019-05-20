@@ -1,4 +1,4 @@
-from blobs.utils import get_centroid, get_area
+from vehicle_counting.blobs.utils import get_centroid, get_area
 
 
 class Blob:
